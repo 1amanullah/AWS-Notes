@@ -10,6 +10,6 @@
 ## Rootuser:
   - User we created our AWS account with follow:
      - Credentials Email address and password.
-     - Do Not use root user for day-to-day activities.
+     - Do Not use Rootuser for day-to-day activities.
      - Create a new IAM account and use the IAM user for the regular activities.
     
