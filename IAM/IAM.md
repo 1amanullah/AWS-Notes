@@ -1,3 +1,3 @@
 ### IAM (Identity Access Managment)
-=> Authentication (The right user)
-=> Authorization (The right access)
+- Authentication (The right user)
+- Authorization (The right access)
