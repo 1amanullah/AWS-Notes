@@ -7,3 +7,6 @@
     - Authentication means is it a right user.
   ## Authorization:
     - Authorization means does the user has right access.
+## Rootuser:
+  - User we created our AWS account with:
+    
