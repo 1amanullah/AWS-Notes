@@ -17,6 +17,7 @@
 - In services select or search the EC2.
 - Select the EC2 virtual servers in the cloud.
 - Go on running instance and launch instance.
-- step 1:- Choose an Amazon Machine Image (AMI)
+### step 1:- Choose an Amazon Machine Image (AMI)
   - If we want to create the EC2 Instance first we need to know which OS is we need , which software we instance virtual server.
   - Select the Amazon Linux2 AMI (HVM), SSD Volume Type because it is free tier eligible so we no need to pay.
+### step 2:- Choose an instance type
