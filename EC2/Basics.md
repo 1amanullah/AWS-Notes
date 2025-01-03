@@ -21,3 +21,4 @@
   - If we want to create the EC2 Instance first we need to know which OS is we need , which software we instance virtual server.
   - Select the Amazon Linux2 AMI (HVM), SSD Volume Type because it is free tier eligible so we no need to pay.
 #### step 2:- Choose an instance type
+  - When we create EC2 instance we need to decide how powerfull the instance should be like how much CPU you wants, how much memory you wants and how much storage we wants what is kind of network we want depending kind of application for EC2 instance type. 
