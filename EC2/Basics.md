@@ -22,3 +22,9 @@
   - Select the Amazon Linux2 AMI (HVM), SSD Volume Type because it is free tier eligible so we no need to pay.
 #### step 2:- Choose an instance type
   - When we create EC2 instance we need to decide how powerfull the instance should be like how much CPU we wants, how much memory we wants and how much storage we wants what is kind of network we want depending kind of application for EC2 instance type. 
+  - There are total 5 type of instance 1.Genral Purpose 2.Compute Optimized 3.GPU Instances 4.Memory Optimized 5. Storage Optimized.
+  - What is the diffrence between this instances? think each of this instances type is optimized for specific workload.
+ ###### 1.Genral Purpose:- 
+   - Type is t2.nano one of them VCPUs (Virtual CPUs) : 1.
+   - Memory (GB) is 0.5.
+   - Network performance is Low to Moderate.
