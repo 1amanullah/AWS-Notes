@@ -61,5 +61,16 @@
    - **Instance Storage:- 3 x 2048**
    - **Network Performance:- Moderate**
 ###### Select now from **Genral Purpose** like **t2.micro** it is free tier elible.
-#### Step 4:- Configure Instance Details
+#### Step 3:- Configure Instance Details
   - Not worry and move to next step.
+#### Step 4:- Add Storage
+  - In this we need to attached a root disk with EC2 instance.
+  - The default size of 8GB is perfect and we use a Genral Purpose hard disk.
+#### Step 5:- Add Tag
+  - Add tags to EC2 instances.
+  - Tags are very underrated but one most of the important feature in AWS.
+  - There we add tag to indicating for example:
+  - Key                   Value
+  - Name          |     First EC2 Instance
+  - Environment   |         Dev
+  - Business unit |          A
