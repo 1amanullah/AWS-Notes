@@ -25,15 +25,19 @@
   - There are total 5 type of instance 1.Genral Purpose 2.Compute Optimized 3.GPU Instances 4.Memory Optimized 5. Storage Optimized.
   - What is the diffrence between this instances? think each of this instances type is optimized for specific workload.
 ###### 1. Genral Purpose:- 
-  - Type is t2.nano one of them VCPUs (Virtual CPUs) : 1.
-  - Memory (GB) is 0.5.
-  - Network performance is Low to Moderate.
+  - **Type:- t2.nano**
+  - **VCPUs (Virtual CPUs):- 1**
+  - **Memory (GB):-  0.5**
+  - **Network performance:-  Low to Moderate**
 ###### 2. Compute Optimized:-
   - In compute optimized would have a lot more CPU in comparition to Memory or Storage.
   - So, as a ratio the compute optimized have more CPU then memory or storage or network.
-  - When we want CPU intensive workload, high performance computing workload in compute optimized
+  - When we want CPU intensive workload, high performance computing workload in compute optimized.
   - **Type:- c5n.large**
   - **vCPU:- 2**
   - **Memory:- 5.25**
   - **Network Performance: up to 25 Gigabit**
-
+###### 3. GPU Instance:-
+  - GPU Instance are great to use for graphic processing workloads.
+  - Use for 3D graphic and media processing applications.
+  - **Type:- 
