@@ -70,7 +70,12 @@
   - Add tags to EC2 instances.
   - Tags are very underrated but one most of the important feature in AWS.
   - There we add tag to indicating for example:
-  - Key                   Value
-  - Name          |     First EC2 Instance
-  - Environment   |         Dev
-  - Business unit |          A
+   
+    | #Key | #Value |
+    | ---- | ------
+    | Name | First EC2 Instance
+    | Environment  | Dev
+    | Business Unit| A
+    
+
+   
