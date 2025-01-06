@@ -60,4 +60,5 @@
   - **Memory:- 30.5**
   - **Instance Storage:- 3 x 2048**
   - **Network Performance:- Moderate**
+  
 - Select now from **Genral Purpose** like **t2.micro** it is free tier eliible.
