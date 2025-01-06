@@ -26,7 +26,7 @@
   - What is the diffrence between this instances? think each of this instances type is optimized for specific workload.
 ###### 1. Genral Purpose:- 
   - **Type:- t2.nano**
-  - **VCPUs (Virtual CPUs):- 1**
+  - **vCPUs (Virtual CPUs):- 1**
   - **Memory (GB):-  0.5**
   - **Network performance:-  Low to Moderate**
 ###### 2. Compute Optimized:-
@@ -34,10 +34,30 @@
   - So, as a ratio the compute optimized have more CPU then memory or storage or network.
   - When we want CPU intensive workload, high performance computing workload in compute optimized.
   - **Type:- c5n.large**
-  - **vCPU:- 2**
-  - **Memory:- 5.25**
+  - **vCPUs:- 2**
+  - **Memory (GB):- 5.25**
   - **Network Performance: up to 25 Gigabit**
 ###### 3. GPU Instance:-
   - GPU Instance are great to use for graphic processing workloads.
   - Use for 3D graphic and media processing applications.
-  - **Type:- 
+  - **Type:- g4dn.xlarge**
+  - **vCPUs:- 4**
+  - **Memory (GB):- 16**
+  - **Instance Storage:- 1 x 125 (SSD)**
+  - **Network Performance:- Up to 25 Gigabit**
+###### 4. Memory Optimized:-
+  - Memory Optimized have a lot of memory compare to CPU, Storage and Network Performance.
+  - This are optimized for running things like memory caches so for memory cache, distributed caches and things like.
+  - **Type:- r5ad.large**
+  - **Memory (GB):- 16**
+  - **Instance Storage:- 1 x 25(SSD)**
+  - **Network Performance: Up to 10 Gigabit**
+###### 5. Storage Optimized:-
+  - Storage Optimized have a lot of storage attached with then compare CPU and Memory.
+  - This use for running data ware houses or run I/O intensive applications.
+  - **Type:- d2.xlarge**
+  - **vCPUs:- 4**
+  - **Memory:- 30.5**
+  - **Instance Storage:- 3 x 2048**
+  - **Network Performance:- Moderate**
+- Select now from **Genral Purpose** like **t2.micro** it is free tier eliible.
