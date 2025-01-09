@@ -77,5 +77,14 @@
     | Environment  | Dev
     | Business Unit| A
     
-
-   
+#### Step 6:- Configure Security Group
+  - Security Group is nothing but a fierwall, virtual fierwall in front of EC2 instance.
+  - We can decide what kind of traffic want to allocate into the EC2 instance and what kind of traffic want to allow outside of EC2 instance.
+  - Create a new security group
+  - **Security Group Name: ec2_security_group**
+  - **Type: SSH**
+  - **Protocol: TCP**
+  - **Port Range: 22**
+  - **Source: custom 0.0.0.0/0 (from everywhere)**
+#### Step 7:- Review Instance Launch
+  - In AWS their is no password only public and private key.
