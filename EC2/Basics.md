@@ -88,3 +88,14 @@
   - **Source: custom 0.0.0.0/0 (from everywhere)**
 #### Step 7:- Review Instance Launch
   - In AWS their is no password only public and private key.
+
+## EC2 Instance Type:-
+  - Optimized combination of compute (CPU,GPU), memory, disk, storage and networking for specific workloads.
+  - 270+ instances acress 40+ instance types for different workloads.
+  - t2.micro
+     - **t :- Instance Family.**
+     - **2 :- Genration. Improvement with eac genration.**
+     - **micro :- Size ( nano < micro < small < medium).**
+  - As size increases, compute (CPU,GPU), memory and networking compabilities increase proportionately.
+  - Connect to your instance.
+  - EC2 Instance connect (browser-based SSH connection).
